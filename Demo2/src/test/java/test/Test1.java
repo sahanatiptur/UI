@@ -21,7 +21,7 @@ public class Test1 extends BaseTest{
 			SearchPO searchPO=new SearchPO(driver);
 			searchPO.verifyElement(searchPO.TwitterLink());
 			searchPO.TwitterLink().click();
-			String eTitle = "Login on Twitter";
+			String eTitle = "Login on Twitter1";
 			wait.until(ExpectedConditions.titleContains(eTitle));
 			String aTitle =driver.getTitle();
 			Reporter.log("Title displayed is"+aTitle, true);
