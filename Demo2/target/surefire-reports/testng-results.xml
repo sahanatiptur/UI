@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Element is present]]>
+    </line>
+    <line>
+      <![CDATA[Title displayed isLogin on Twitter]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="15045" started-at="2018-05-31T15:20:27Z" finished-at="2018-05-31T15:20:42Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="15045" started-at="2018-05-31T15:20:27Z" finished-at="2018-05-31T15:20:42Z">
+      <class name="test.Test1">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:test.Test1@63e2203c]" name="launchBrowser" is-config="true" duration-ms="4791" started-at="2018-05-31T15:20:27Z" finished-at="2018-05-31T15:20:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="testtwitterHome()[pri:0, instance:test.Test1@63e2203c]" name="testtwitterHome" duration-ms="9099" started-at="2018-05-31T15:20:31Z" finished-at="2018-05-31T15:20:41Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Element is present]]>
+            </line>
+            <line>
+              <![CDATA[Title displayed isLogin on Twitter]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testtwitterHome -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.Test1@63e2203c]" name="closeBrowser" is-config="true" duration-ms="1123" started-at="2018-05-31T15:20:41Z" finished-at="2018-05-31T15:20:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- test.Test1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
